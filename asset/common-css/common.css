@@ -22,3 +22,96 @@
     font-family: Red Hat Display;
     src: url('../font/RedHatDisplay-Bold.ttf');
 }
+
+body.white-body{
+    background: var(--neutral-white-100, #F7F7F8);
+    position: relative;
+    z-index: 2;
+    overflow-x: hidden;
+}
+
+body div.container{
+    max-width: 1224px !important;
+}
+
+a, a.active{
+    text-decoration: none;
+    color: var(--neutral-black-700, #3C475C);
+}
+
+button{
+    border: none;
+    background: inherit;
+}
+
+.nav-container{
+    display: flex;
+    max-width: 1224px;
+    padding: 30px 40px !important;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    background: var(--neutral-white, #FFF);
+}
+
+.nav-container h1{
+    color: var(--primary-dark-gray, #1B2D4F);
+    font-family: Red Hat Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 100% */
+    letter-spacing: -0.9px;
+}
+
+.nav-container .nav-options{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-container .nav-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.8s ease;
+    right: 0%;
+    position: relative;
+}
+
+.nav-container .nav-list.collapsed{
+    right: -100%;
+    opacity: 0;
+}
+
+.nav-container .nav-list .nav-item a{
+    color: var(--neutral-black-700, #3C475C);
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: var(--neutral-white-100, #F7F7F8);
+    cursor: pointer;
+}
+.nav-container .nav-list .nav-item a.active{
+    background: var(--neutral-white-300, #E4E6E9);
+}
+
+.nav-toggeler{
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-toggeler img{
+    max-height: 15px;
+    cursor: pointer;
+}

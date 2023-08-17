@@ -10,13 +10,43 @@
     <link rel="stylesheet" href="./asset/common-css/generic.css">
     <link rel="stylesheet" href="./asset/js-css/index/index.css">
 </head>
-<body>
+<body class="white-body">
     <header>
-        <h2>Fred Beauchemin.</h2>
+        <nav class="container nav-container">
+            <div class="logo">
+                <h1>Fred Beauchemin.</h1>
+            </div>
+            <div class="nav-options">
+                <div class="nav-list" id="navList">
+                    <div class="nav-item">
+                        <a class="active" href="#">Home</a>
+                    </div>
+                    <div class="nav-item">
+                        <a>Issues</a>
+                    </div>
+                    <div class="nav-item">
+                        <a>Services</a>
+                    </div>
+                    <div class="nav-item">
+                        <a>News</a>
+                    </div>
+                    <div class="nav-item">
+                        <a>Contact</a>
+                    </div>
+                </div>
+                <div class="nav-toggeler">
+                    <button onclick="toggleNavList()">
+                        <img id="menuToggleImg" src="./asset/img/Close-Icons.svg" alt="close icon" srcset="">
+                    </button>
+                </div>
+            </div>
+        </nav>
     </header>
-    <body></body>
+    <main></main>
     <footer></footer>
     <script src="./asset/common-js/bootstrap.bundle.min.js"></script>
     <script src="./asset/common-js/bootstrap.bundle.min.js"></script>
+    <script src="./asset/common-js/common.js"></script>
+    <script src="./asset/js-css/index/index.js"></script>
 </body>
 </html>
