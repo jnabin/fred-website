@@ -1,0 +1,20 @@
+:root {
+    --neutral-black-700: rgba(60, 71, 92, 1);
+    --neutral-gray-500: rgba(157, 167, 185, 1);
+    --neutral-white: rgba(255, 255, 255, 1);
+    --neutral-white-100: rgba(247, 247, 248, 1);
+    --neutral-white-300: rgba(228, 230, 233, 1);
+    --primary-dark-gray: rgba(27, 45, 79, 1);
+    --secondary-blue: rgba(0, 79, 154, 1);
+    --secondary-red: rgba(174, 15, 10, 1);
+
+    --h1: 68px;
+    --h2: 48px;
+    --h3: 40px;
+    --h4: 30px;
+    --h5: 24px;
+    --h6: 20px;
+    --bigp: 18px;
+    --p: 16px;
+    --button: 16px;
+  }
