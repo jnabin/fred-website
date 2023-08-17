@@ -1,5 +1,5 @@
 @font-face {
-    font-family: SF-Pro-Display;
+    font-family: SF Pro Display;
     src: url('../font/SF-Pro-Display-Regular.ttf');
 }
 
@@ -16,4 +16,9 @@
 @font-face {
     font-family: Gotham-Bold;
     src: url('../font/GothamBold.ttf');
+}
+
+@font-face {
+    font-family: Red Hat Display;
+    src: url('../font/RedHatDisplay-Bold.ttf');
 }
