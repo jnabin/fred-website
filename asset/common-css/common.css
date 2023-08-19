@@ -165,6 +165,15 @@ h6{
     letter-spacing: -1px;
 }
 
+h5{
+    font-family: Gotham-Medium;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 133.333% */
+letter-spacing: -1.2px;
+}
+
 button.rg,
 a.rg{
     font-family: SF Pro Display;
