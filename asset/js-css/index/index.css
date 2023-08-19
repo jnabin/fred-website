@@ -16,6 +16,7 @@
     object-position: center;
     object-fit: cover;
     z-index: 1;
+    border-radius: 20px;
 }
 .hero-section .container .background-color{
     position: absolute;
@@ -309,7 +310,7 @@ section.about{
 }
 .latest-news-article-content{
     display: grid;
-    grid-template-columns: 600px 600px;
+    grid-template-columns: auto auto;
     grid-template-rows: 325px 325px;
     column-gap: 24px;
     row-gap: 24px;
