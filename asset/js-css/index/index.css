@@ -1,0 +1,321 @@
+.hero-section{
+    margin-bottom: 160px;
+}
+.hero-section .container{
+    position: relative;
+    border-radius: 20px;
+    min-height: 719px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+.hero-section .container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    z-index: 1;
+}
+.hero-section .container .background-color{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(89deg, #050F21 0%, rgba(23, 54, 113, 0.01) 67.71%);
+    z-index: 2;
+    border-radius: 20px;
+}
+.hero-section .container .play-button{
+    background-color: var(--secondary-blue, #004F9A);
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 38px;
+    position: absolute;
+    bottom: -40px;
+    right: 85px;
+    z-index: 3;
+}
+.hero-section .container .play-button i{
+    color: white;
+}
+
+.hero-section-content{
+    margin-bottom: 80px;
+    margin-left: 80px;
+    max-width: 673px;
+    position: relative;
+    z-index: 5;
+}
+.hero-section-content h1{
+    color: #FFF;
+    font-family: Gotham-Bold;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px; /* 110% */
+    letter-spacing: -2.4px;
+    margin-bottom: 30px !important;
+}
+.hero-section-content .join-with-fred a{
+    display: inline-block;
+    padding: 26px 35px;
+    border-radius: 20px;
+    background: var(--secondary-red, #AE0F0A);
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 80% */
+    text-transform: uppercase;
+}
+.vision-section{
+    margin-bottom: 120px;
+}
+.vision-section .container{
+    padding: 20px 70px 0px 70px !important;
+    border-radius: 20px;
+    background: var(--primary-dark-gray, #1B2D4F);
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    overflow-y: hidden;
+    position: relative;
+}
+.vision-section .container .blue-illustration{
+    position: absolute;
+    left: 238px;
+    top: 50px;
+}
+.vision-section .container .vision-actor{
+    flex-basis: 325px;
+    position: relative;
+    z-index: 2;
+}
+.vision-section .container .right{
+    flex-basis: 701px;
+    position: relative;
+    z-index: 2;
+}
+.vision-section .container .right .vision-label{
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+.vision-section .container .right .vision-label .label{
+    color: var(--neutral-white-100, #F7F7F8);
+    font-family: Gotham-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 140% */
+    letter-spacing: -1px;
+    display: inline-block;
+}
+.vision-section .container .right .vision-label .h-line{
+    height: 1px;
+    width: 145px;
+    display: inline-block;
+    flex-basis: 145px;
+    background-color: var(--secondary-blue, #004F9A);
+}
+.vision-section .container .right .vision-text{
+    margin-top: 40px;
+    color: #FFF;
+
+    /* Heading/H4 */
+    font-family: Gotham-Medium;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 125% */
+    letter-spacing: -1.6px;
+}
+.fred-priorities{
+    margin-bottom: 120px;
+}
+.fred-priorities h2{
+    color: var(--primary-dark-gray, #1B2D4F);
+    text-align: center;
+    /* Heading/H2 */
+    font-family: Gotham-Bold;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 112.5% */
+    letter-spacing: -3.2px;
+    margin-bottom: 60px !important;
+}
+.fred-priorities .fred-priorities-content{
+    background-image: url(../../img/fred-top-property-img-min.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+    padding: 32px;
+    height: 600px;
+}
+.fred-priorities .fred-priorities-content .priority-item{
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.90);
+    backdrop-filter: blur(3.5px);
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    flex-basis: 272px;
+}
+.fred-priorities .fred-priorities-content .priority-item h6{
+    color: var(--primary-dark-gray, #1B2D4F);
+}
+.fred-priorities .fred-priorities-content .priority-item img{
+    max-width: 31px;
+    height: 26px;
+}
+.fred-priorities .fred-priorities-content .priority-item:first-child{
+    background: var(--primary-dark-gray, #1B2D4F);
+}
+.fred-priorities .fred-priorities-content .priority-item:first-child h6{
+    color: var(--neutral-white, #FFF);
+}
+section.about{
+    margin-bottom: 120px;
+}
+.about .container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.about .container .about-actor{
+    flex-basis: 391px;
+    border-radius: 16px;
+}
+.about .container .about-actor img{
+    border-radius: 16px;
+}
+.about .container .about-text-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex-basis: 808px;
+    max-width: 808px;
+}
+.about .container .about-text-content .top-content{
+    border-radius: 16px;
+    background: var(--neutral-white, #FFF);
+    padding: 30px;
+}
+.about .container .about-text-content .top-content .abount-label{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 66px;
+}
+.about .container .about-text-content .top-content .abount-label .label{
+    color: var(--primary-dark-gray, #1B2D4F);
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 100% */
+}
+
+.about .container .about-text-content .top-content .abount-label .h-line{
+    background: #E4E6E9;
+    height: 1px;
+    flex-grow: 1;
+}
+.about .container .about-text-content .top-content h4{
+    color: var(--primary-dark-gray, #1B2D4F);
+}
+.about .container .about-text-content .fred-social-media{
+    border-radius: 16px;
+    background: var(--neutral-white, #FFF);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.about .container .about-text-content .fred-social-media .social-media-label{
+    color: var(--primary-dark-gray, #1B2D4F);
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 100% */
+}
+.about .container .about-text-content .fred-social-media .social-media-lists{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    justify-content: space-between;
+}
+.about .container .about-text-content .fred-social-media .social-media-lists .social-media-item{
+    display: flex;
+    padding: 14px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--secondary-blue, #004F9A);
+    color: var(--neutral-white, #FFF);
+    flex-basis: 170px;
+}
+.latest-news-article{
+    margin-bottom: 120px;
+}
+.latest-news-article .section-label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.latest-news-article .section-label a{
+    display: inline-flex;
+    display: flex;
+    padding: 9px 10px 9px 25px;
+    align-items: center;
+    gap: 15px;
+    border-radius: 40px;
+    background: var(--primary-dark-gray, #1B2D4F);
+}
+.latest-news-article .section-label a h6{
+    color: var(--neutral-white, #FFF);
+}
+.latest-news-article .section-label a .indicate-icon{
+    display: inline-flex;
+    background-color: var(--neutral-white, #FFF);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: Primary/Dark Gray;
+    align-items: center;
+    justify-content: center;
+}
+.latest-news-article .section-label a .indicate-icon i{
+    transform: rotate(50deg);
+    transition: all 0.5s ease;
+}
+.latest-news-article .section-label a:hover .indicate-icon i{
+    transform: rotate(90deg);
+}
+.latest-news-article-content{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+.latest-news-article-content .article-item:first-child{
+    grid-row: 1/3;
+}
+.latest-news-article-content .article-item{
+    position: relative;
+}
