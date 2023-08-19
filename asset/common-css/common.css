@@ -183,3 +183,58 @@ a.rg{
     line-height: 16px !important; /* 100% */
     text-transform: uppercase;
 }
+.footer{
+    padding: 40px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: var(--neutral-white, #FFF);
+    margin-bottom: 30px;
+}
+.footer .left .logog{
+    color: var(--primary-dark-gray, #1B2D4F);
+    font-family: Red Hat Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 100% */
+    letter-spacing: -0.9px;
+    margin-bottom: 12px;
+}
+.footer .left .copyright{
+    color: var(--neutral-black-700, #3C475C);
+
+/* Paragraph/RG */
+font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+} 
+.footer .right .quick-link-label{
+    color: var(--primary-dark-gray, #1B2D4F);
+
+    /* Paragraph/MD */
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    margin-bottom: 12px;
+}
+.footer .right .quick-link-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer .right .quick-link-list a{
+    text-decoration: underline !important;
+    color: var(--neutral-black-700, #3C475C);
+font-family: SF Pro Display;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+text-decoration-line: underline;
+}

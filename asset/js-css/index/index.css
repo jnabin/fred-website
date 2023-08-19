@@ -505,6 +505,10 @@ margin-top: 8px;
 .update-from-deputy .container form input:first-child{
     flex-basis: 300px;
 }
+.update-from-deputy .container form input.zip-code{
+    flex-basis: 150px;
+    max-width: 150px;
+}
 .update-from-deputy .container form button{
     padding: 18px 50px;
     border-radius: 10px;
