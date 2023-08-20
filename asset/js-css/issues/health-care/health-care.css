@@ -38,6 +38,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 24px;
+    gap: 27px;
 }
 .issue-details-content div.rg{
     margin-bottom: 10px;
@@ -273,5 +274,8 @@
     }
     .small-issue-card{
         gap: 40px;
+    }
+    .issue-details-content .issue-timeline{
+        gap: 24px;
     }
 }
