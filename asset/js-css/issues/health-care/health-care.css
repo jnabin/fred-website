@@ -271,4 +271,7 @@
     .issue-details-content{
         padding-bottom: 50px;
     }
+    .small-issue-card{
+        gap: 40px;
+    }
 }
