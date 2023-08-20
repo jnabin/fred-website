@@ -152,6 +152,15 @@ h1{
     letter-spacing: -2.4px !important;
 }
 
+h3{
+    font-family: Gotham-Bold;
+    font-size: 48px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 56px !important; /* 116.667% */
+    letter-spacing: -2.4px !important;
+}
+
 h4{
     font-family: Gotham-Medium;
     font-size: 32px !important;
@@ -380,6 +389,12 @@ a.vertical-arrow:hover i{
 
     .mobile-tablet-nav-option{
         display: block;
+    }
+
+    h3{
+        font-size: 28px !important;
+        line-height: 36px !important; /* 116.667% */
+        letter-spacing: -1.4px !important;
     }
 
     .mobile-tablet-nav-option .dropdown-menu{
