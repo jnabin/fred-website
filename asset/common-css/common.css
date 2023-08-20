@@ -197,7 +197,7 @@ a.rg{
     line-height: 16px !important; /* 100% */
     text-transform: uppercase;
 }
-p.rg, span.rg, div.rg{
+p.rg, span.rg, div.rg, label.rg{
     font-family: SF Pro Display;
     font-size: 16px;
     font-style: normal;
@@ -521,6 +521,11 @@ a.vertical-arrow:hover i{
     .update-from-deputy .container p{
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .footer .right .quick-link-list {
+        gap: 24px;
+        flex-wrap: wrap;
     }
 }
 
