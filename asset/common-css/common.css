@@ -316,6 +316,48 @@ text-decoration-line: underline;
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+    h6{
+        font-size: 16px !important;
+        line-height: 24px !important;
+        letter-spacing: -0.8px !important;
+    }
+
+    h5{
+        font-size: 24px !important;
+        line-height: 32px !important;
+        letter-spacing: -1.2px !important;
+    }
+
+    h4{
+        font-size: 24px !important;
+        line-height: 32px !important;
+        letter-spacing: -1.2px !important;
+    }
+
+    h2{
+        font-size: 32px !important;
+        line-height: 40px !important;
+        letter-spacing: -1.6px !important;
+    }
+    button.rg, a.rg{
+        font-size: 14px !important;
+        line-height: 14px !important;
+    }
+    .footer{
+        padding: 30px !important;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .footer .left .logog {
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: -0.72px;
+    }
+    .footer .right .quick-link-label {
+     font-size: 18px;
+     line-height: 28px;   
+    }
 }
 
 @media screen and (max-width: 525px){

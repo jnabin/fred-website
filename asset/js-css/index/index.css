@@ -576,4 +576,179 @@ margin-top: 8px;
         font-size: 18px;
         line-height: 16px; /* 88.889% */
     }
+    .hero-section-content{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .vision-section .container{
+        flex-wrap: wrap;
+        padding: 24px 24px 0px 24px !important;
+        gap: 15px;
+        overflow-x: hidden;
+    }
+
+    .vision-section .container .vision-actor,
+    .vision-section .container .vivion-text{
+        flex-basis: 100%;
+    }
+    .vision-section .container .vision-actor{
+        order: 3;
+    }
+
+    .vision-section .container .blue-illustration {
+        bottom: 0;
+        right: -300px;
+        left: unset;
+        top: unset;
+    }
+    .latest-news-article-content .article-item img{
+        object-position: top;
+    }
+
+    .vision-section .container .right .vision-text{
+        margin-top: 30px;
+    }
+
+    section{
+        margin-bottom: 80px !important;
+    }
+    .vision-section .container .right .vision-label .label{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .vision-section .container .right .vision-text{
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -1.2px;
+    }
+
+    .fred-priorities h2{
+        margin-bottom: 30px !important;
+    }
+
+    .fred-priorities .fred-priorities-content {
+        background-image: none;
+        display: grid;
+        column-gap: 16px;
+        row-gap: 16px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: unset;
+        align-items: flex-end;
+        gap: 24px;
+        padding: 0px;
+        height: auto;
+    }
+
+    .fred-priorities .fred-priorities-content .priority-item{
+        padding: 16px;
+    }
+    .about .container{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .about .container .about-actor,
+    .about .container .about-text-content{
+        flex-basis: 100%;
+    }   
+    .about .container .about-text-content .top-content{
+        padding: 20px;
+    }
+    .about .container .about-text-content .top-content .abount-label{
+        margin-bottom: 40px;
+    }
+    .about .container .about-text-content .fred-social-media{
+        padding: 20px;
+    }
+    .about .container .about-text-content .fred-social-media .social-media-label{
+        font-family: Gotham-Medium;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.8px;
+    }
+    .about .container .about-text-content .fred-social-media{
+        gap: 20px;
+    }
+    .about .container .about-text-content .fred-social-media .social-media-lists {
+        gap: 14px;
+        flex-wrap: wrap;
+    }
+    .about .container .about-text-content .fred-social-media .social-media-lists .social-media-item{
+        padding: 14px 20px;
+    }
+    .latest-news-article .section-label{
+        margin-bottom: 40px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .latest-news-article-content {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .latest-news-article-content .article-item{
+        flex-basis: 220px;   
+    }
+    .latest-news-article-content .article-item:first-child{
+        flex-basis: 441px;
+    }
+    .latest-news-article-content .article-item:last-child{
+        flex-basis: 249px;
+    }
+    .latest-news-article-content .article-item .article-content .article-desc{
+        font-size: 24px !important;
+        line-height: 32px !important;
+        letter-spacing: -1.2px !important;
+    }
+    .update-from-deputy .container{
+        padding: 30px 16px;
+    }
+    .update-from-deputy .container h2 {
+        margin-bottom: 16px !important;
+    }
+    .update-from-deputy .container form {
+        margin-top: 24px;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .update-from-deputy .container form input:first-child {
+        flex-basis: 100%;
+    }
+    .update-from-deputy .container form input{
+        padding: 12px 20px;
+    }
+    .update-from-deputy .container form .tel-input{
+        flex-basis: calc(60% - 9.6px);
+    }
+    .update-from-deputy .container form input.zip-code{
+        flex-basis: calc(40% - 6.4px);
+        max-width: calc(40% - 6.4px);
+    }
+    .update-from-deputy .container form button{
+        display: block;
+        width: 100%;
+        flex-basis: 100%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .update-from-deputy .container p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    h5.small-on-mobile{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .latest-news-article-content .article-item .arrow-item{
+        top: 10px;
+    }
+    .latest-news-article-content .article-item:first-child .arrow-item{
+        top: 15px;
+    }
+    .latest-news-article-content .article-item:first-child .article-content{
+        padding: 20px;
+    }
 }
