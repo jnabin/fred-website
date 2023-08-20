@@ -188,6 +188,20 @@ a.rg{
     line-height: 16px !important; /* 100% */
     text-transform: uppercase;
 }
+p.rg, span.rg, div.rg{
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+p.md{
+    font-family: SF Pro Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
 .footer{
     padding: 40px !important;
     display: flex;
@@ -247,6 +261,105 @@ text-decoration-line: underline;
 .mobile-tablet-nav-option{
     display: none;
 }
+
+span.vertical-arrow,
+a.vertical-arrow{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    z-index: 3;
+    border-radius: 50%;
+}
+
+
+span.vertical-arrow i,
+a.vertical-arrow i{
+    transform: rotate(50deg);
+    transition: all 0.5s ease;
+}
+
+
+span.vertical-arrow:hover i,
+a.vertical-arrow:hover i{
+    transform: rotate(90deg);
+}
+
+.update-from-deputy{
+    margin-bottom: 69px;
+}
+.update-from-deputy .container{
+    border-radius: 20px;
+    background: var(--primary-dark-gray, #1B2D4F);
+    padding: 60px 80px;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-bottom: 132px;
+}
+.update-from-deputy .container h2{
+    margin-bottom: 24px !important;
+    color: var(--neutral-white);
+}
+.update-from-deputy .container p{
+    color: var(--neutral-gray-500, #9DA7B9);
+    text-align: center;
+    /* Subtitle/RG */
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    margin-bottom: 40px;
+    max-width: 771px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.update-from-deputy .container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+}
+.update-from-deputy .container form{
+    display: flex;
+    align-content: center;
+    gap: 16px;
+    max-width: 907px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.update-from-deputy .container form input{
+    padding: 14px 20px;border-radius: 10px;
+    border: 1px solid #516FAA;
+    background: #324D80;
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    height: 52px;
+    line-height: 24px; /* 150% */
+    outline: none !important;
+}
+.update-from-deputy .container form input:first-child{
+    flex-basis: 300px;
+}
+.update-from-deputy .container form input.zip-code{
+    flex-basis: 150px;
+    max-width: 150px;
+}
+.update-from-deputy .container form button{
+    padding: 18px 50px;
+    border-radius: 10px;
+    background: var(--secondary-red, #AE0F0A);
+    color: #FFF !important;
+    flex-basis: 159px;
+    white-space: nowrap;
+}
+
 
 @media screen and (max-width: 1224px){
     body.white-body{
@@ -340,7 +453,7 @@ text-decoration-line: underline;
         line-height: 40px !important;
         letter-spacing: -1.6px !important;
     }
-    button.rg, a.rg{
+    button.rg, a.rg, span.rg{
         font-size: 14px !important;
         line-height: 14px !important;
     }
@@ -357,6 +470,42 @@ text-decoration-line: underline;
     .footer .right .quick-link-label {
      font-size: 18px;
      line-height: 28px;   
+    }
+
+    .update-from-deputy .container{
+        padding: 30px 16px;
+    }
+    .update-from-deputy .container h2 {
+        margin-bottom: 16px !important;
+    }
+    .update-from-deputy .container form {
+        margin-top: 24px;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .update-from-deputy .container form input:first-child {
+        flex-basis: 100%;
+    }
+    .update-from-deputy .container form input{
+        padding: 12px 20px;
+    }
+    .update-from-deputy .container form .tel-input{
+        flex-basis: calc(60% - 9.6px);
+    }
+    .update-from-deputy .container form input.zip-code{
+        flex-basis: calc(40% - 6.4px);
+        max-width: calc(40% - 6.4px);
+    }
+    .update-from-deputy .container form button{
+        display: block;
+        width: 100%;
+        flex-basis: 100%;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .update-from-deputy .container p{
+        font-size: 16px;
+        line-height: 24px;
     }
 }
 

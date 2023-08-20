@@ -1,0 +1,95 @@
+section{
+    margin-bottom: 120px;
+}
+.feature-issue{
+    padding: 60px 0px;
+    padding-bottom: 0px;
+}
+.feature-issue .section-label{
+    margin-bottom: 40px;
+}
+.feature-issue .section-label .where-fred-label{
+    margin-bottom: 15px;
+    text-align: center;
+    color: var(--primary-dark-gray, #1B2D4F);
+}
+.feature-issue .section-label h1{
+    text-align: center;
+    color: var(--primary-dark-gray, #1B2D4F);
+}
+.feature-issue .feature-issue-content{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    background: var(--neutral-white, #FFF);
+}
+.feature-issue .feature-issue-content .feature-section-image{
+    flex-basis: 603px;
+}
+.feature-issue .feature-issue-content .feature-section-image img{
+    border-radius: 16px;
+}
+.feature-issue .feature-issue-content .feature-issue-section-text{
+    flex-basis: 510px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.feature-issue-section-text .vertical-arrow{
+    border: 1px solid var(--neutral-white-300, #E4E6E9);
+}
+.feature-issue-section-text .vertical-arrow i{
+    font-size: 20px;
+}
+.feature-issue-section-text .read-more-wrapper a{
+    display: inline-flex;
+    gap: 16px;
+    align-items: center;
+}
+.feature-issue-section-text .read-more-wrapper a .read-more{
+    text-transform: capitalize;
+}
+.feature-issue-section-text .read-more-link:hover i{
+    transform: rotate(90deg);
+}
+.feature-issue-section-text .read-more-wrapper{
+    margin-top: 30px;
+}
+.defending-democracy h4{
+    margin-bottom: 10px !important;
+}
+.issue-list-wrapper .container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.vertical-arrow{
+    border: 1px solid var(--neutral-white-300, #E4E6E9);
+}
+.issue-list-wrapper .container .issue-card{
+    flex-basis: calc(50% - 12px);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    background: var(--neutral-white, #FFF);
+}
+.issue-list-wrapper .container .issue-card .card-top-content{
+    display: flex;
+    justify-content: space-between;
+}
+.issue-list-wrapper .container .issue-card .card-top-content .card-titles{
+    flex-basis: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.issue-list-wrapper .container .issue-card .card-image img{
+    border-radius: 16px;
+    width: 100%;
+}

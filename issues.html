@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Issues</title>
+    <link rel="stylesheet" href="./asset/common-css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./asset/common-css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/common-css/variable.css">
+    <link rel="stylesheet" href="./asset/common-css/generic.css">
+    <link rel="stylesheet" href="./asset/common-css/common.css">
+    <link rel="stylesheet" href="./asset/js-css/issues/issues.css">
 </head>
 <body class="white-body"> 
     <header>
@@ -20,13 +26,13 @@
                         <a href="#" class="active">Issues</a>
                     </div>
                     <div class="nav-item">
-                        <a>Services</a>
+                        <a href="./services.html">Services</a>
                     </div>
                     <div class="nav-item">
-                        <a>News</a>
+                        <a href="./news.html">News</a>
                     </div>
                     <div class="nav-item">
-                        <a>Contact</a>
+                        <a href="./contact.html">Contact</a>
                     </div>
                 </div>
                 <div class="nav-toggeler">
@@ -35,7 +41,188 @@
                     </button>
                 </div>
             </div>
+            <div class="mobile-tablet-nav-option">
+                <button class="menu-tggler-btn" type="button" id="navMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img id="menuToggleImg" src="./asset/img/Menu-icon.svg" alt="close icon" srcset="">
+                  </button>
+                <ul class="dropdown-menu" aria-labelledby="navMenuButton">
+                    <li><a class="dropdown-item" href="./index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="#">Issues</a></li>
+                    <li><a class="dropdown-item" href="./services.html">Services</a></li>
+                    <li><a class="dropdown-item" href="./news.html">News</a></li>
+                    <li><a class="dropdown-item" href="./contact.html">Contact</a></li>
+                  </ul>
+            </div>
         </nav>
     </header>
+    <main>
+        <section class="feature-issue">
+            <div class="container px-0">
+                <div class="section-label">
+                    <h6 class="where-fred-label">Where Fred Beauchemin</h6>
+                    <h1>ON THE ISSUES</h1>
+                </div>
+                <div class="feature-issue-content">
+                    <div class="feature-section-image">
+                        <img src="./asset/img/group-people-with-fight-racism-quotes-min.png" alt="peoples with fighting racism quotes" srcset="">
+                    </div>
+                    <div class="feature-issue-section-text">
+                        <button class="rg text-start">Today Working this Issue</button>
+                        <div class="defending-democracy">
+                            <h4>Defending Democracy</h4>
+                            <div class="defending-democracy-text rg">
+                                Lorem ipsum dolor sit amet consectetur. Facilisis facilisis sagittis et ut mus massa et sit. Vitae quis augue ut non. Orci tincidunt maecenas amet netus.
+                            </div>
+                            <div class="read-more-wrapper">
+                                <a class="read-more-link" href="">
+                                    <span href="#" class="vertical-arrow">
+                                        <i class="fa-solid fa-arrow-up"></i>
+                                    </span>
+                                    <span class="read-more rg">Read More</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="issue-list-wrapper">
+            <div class="container px-0">
+                <div class="issue-card">
+                    <div class="card-top-content">
+                        <div class="card-titles">
+                            <h4 class="issue-name">Health Care</h4>
+                            <p class="md md-short-desc">Guarantee healthcare for all people, curb costs, and improve long-term health.</p>
+                        </div>
+                        <div class="card-sea-more">
+                            <a href="" class="vertical-arrow">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img src="./asset/img/health-care-issue-min.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="issue-card">
+                    <div class="card-top-content">
+                        <div class="card-titles">
+                            <h4 class="issue-name">Housing as Human Right</h4>
+                            <p class="md md-short-desc">Protect current occupants, repair public housing, and build new affordable housing.</p>
+                        </div>
+                        <div class="card-sea-more">
+                            <a href="" class="vertical-arrow">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img src="./asset/img/housing-issue-min.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="issue-card">
+                    <div class="card-top-content">
+                        <div class="card-titles">
+                            <h4 class="issue-name">Real Public Safety</h4>
+                            <p class="md md-short-desc">Instead of investing in mass incarceration, we need to invest in the most vulnerable members of our society.</p>
+                        </div>
+                        <div class="card-sea-more">
+                            <a href="" class="vertical-arrow">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img src="./asset/img/public-safety-issue-min.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="issue-card">
+                    <div class="card-top-content">
+                        <div class="card-titles">
+                            <h4 class="issue-name">Education</h4>
+                            <p class="md md-short-desc">Strengthen our education system and make it affordable to all, so students are prepared for jobs.</p>
+                        </div>
+                        <div class="card-sea-more">
+                            <a href="" class="vertical-arrow">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img src="./asset/img/education-issue-min.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="issue-card">
+                    <div class="card-top-content">
+                        <div class="card-titles">
+                            <h4 class="issue-name">Equality for all</h4>
+                            <p class="md md-short-desc">Diversity is our nation’s strength, but for far too long, too many of our fellow Montanans have been held back.</p>
+                        </div>
+                        <div class="card-sea-more">
+                            <a href="" class="vertical-arrow">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img src="./asset/img/equality-issue-min.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="issue-card">
+                    <div class="card-top-content">
+                        <div class="card-titles">
+                            <h4 class="issue-name">Economy and Jobs</h4>
+                            <p class="md md-short-desc">Creating more opportunities for education, training, and good-paying jobs.</p>
+                        </div>
+                        <div class="card-sea-more">
+                            <a href="" class="vertical-arrow">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img src="./asset/img/economy-issue-min.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="update-from-deputy">
+            <div class="container">
+                <!-- <img src="./asset/img/deputy-section-illus.svg" alt="" srcset=""> -->
+                <h2 class="text-center">Newsletter, email update from the deputy</h2>
+                <p class="text-center">Our organizing program is going to be powered by people like you talking to your friends, family, and communities.</p>
+                <form>
+                    <input type="email" placeholder="Your Email Address" name="" id="">
+                    <input type="tel" class="tel-input" placeholder="Your Phone Number" name="" id="">
+                    <input class="zip-code" type="text" placeholder="Your Zip" name="" id="">
+                    <button class="join-btn rg">Join Us</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer container">
+            <div class="left">
+                <div class="logog">Fred Beauchemin.</div>
+                <div class="copyright">
+                    All rights reserved. &copy; 2023 Fred Beauchemin.
+                </div>
+            </div>
+            <div class="right">
+                <div class="quick-link-label">Find all quick links</div>
+                <div class="quick-link-list">
+                    <a href="./index.html">Home</a>
+                    <a href="#">Issues</a>
+                    <a href="./services.html">Services</a>
+                    <a href="./news.html">News</a>
+                    <a href="./contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./asset/common-js/jquery-3.6.1.min.js"></script>
+    <script src="./asset/common-js/bootstrap.bundle.min.js"></script>
+    <script src="./asset/common-js/common.js"></script>
+    <script src="./asset/js-css/issues/issues.js"></script>
 </body>
 </html>
