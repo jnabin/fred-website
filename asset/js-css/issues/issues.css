@@ -33,7 +33,7 @@ section{
 }
 .feature-issue .feature-issue-content .feature-issue-section-text{
     flex-basis: 510px;
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
