@@ -93,3 +93,38 @@ section{
     border-radius: 16px;
     width: 100%;
 }
+
+@media screen and (max-width: 870px){
+    .feature-issue {
+        padding-top: 10px;
+    }
+    .feature-issue .section-label {
+        margin-bottom: 30px;
+    }
+    .feature-issue .feature-issue-content {
+        flex-wrap: wrap;
+        gap: 26px;
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    .feature-issue .feature-issue-content .feature-issue-section-text {
+        height: auto;
+        flex-basis: 100%;
+        gap: 40px;
+    }
+
+    section{
+        margin-bottom: 50px;
+    }
+    .issue-list-wrapper .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .issue-list-wrapper .container .issue-card{
+        flex-basis: 100%;
+        padding: 20px;
+        gap: 30px;
+    }
+}
