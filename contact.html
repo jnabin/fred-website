@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./asset/common-css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./asset/common-css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/common-css/variable.css">
+    <link rel="stylesheet" href="./asset/common-css/generic.css">
+    <link rel="stylesheet" href="./asset/common-css/common.css">
+    <link rel="stylesheet" href="./asset/js-css/contact/contact.css">
+</head>
+<body class="white-body">
+    <header>
+        <nav class="container nav-container">
+            <div class="logo">
+                <h1>Fred Beauchemin.</h1>
+            </div>
+            <div class="nav-options">
+                <div class="nav-list" id="navList">
+                    <div class="nav-item">
+                        <a href="./index.html">Home</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="./issues/index.html">Issues</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="./services.html">Services</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="./news.html">News</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="active" href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="nav-toggeler">
+                    <button onclick="toggleNavList()">
+                        <img id="menuToggleImg" src="./asset/img/Close-Icons.svg" alt="close icon" srcset="">
+                    </button>
+                </div>
+            </div>
+            <div class="mobile-tablet-nav-option">
+                <button class="menu-tggler-btn" type="button" id="navMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img id="menuToggleImg" src="./asset/img/Menu-icon.svg" alt="close icon" srcset="">
+                  </button>
+                <ul class="dropdown-menu" aria-labelledby="navMenuButton">
+                    <li><a class="dropdown-item" href="./index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="./issues/index.html">Issues</a></li>
+                    <li><a class="dropdown-item" href="./services.html">Services</a></li>
+                    <li><a class="dropdown-item" href="./news.html">News</a></li>
+                    <li><a class="dropdown-item" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-default">
+            <div class="container">
+                <h3>Contact details of the deputy and his team</h3>
+                <div class="team-list">
+                    <div class="contact-team">
+                        <div class="name-designation">
+                            <h5>Thomas h.</h5>
+                            <p class="rg">
+                                Head of help department
+                            </p>
+                        </div>
+                        <div class="contact-details">
+                            <p class="rg">thomas@fredbeauchemin.com</p>
+                            <p class="rg">+1 3069884048</p>
+                            <p class="rg">8:00am - 4:00pm</p>
+                        </div>
+                    </div>
+                    <div class="contact-team">
+                        <div class="name-designation">
+                            <h5>Thomas h.</h5>
+                            <p class="rg">
+                                Head of help department
+                            </p>
+                        </div>
+                        <div class="contact-details">
+                            <p class="rg">thomas@fredbeauchemin.com</p>
+                            <p class="rg">+1 3069884048</p>
+                            <p class="rg">8:00am - 4:00pm</p>
+                        </div>
+                    </div>
+                    <div class="contact-team">
+                        <div class="name-designation">
+                            <h5>Thomas h.</h5>
+                            <p class="rg">
+                                Head of help department
+                            </p>
+                        </div>
+                        <div class="contact-details">
+                            <p class="rg">thomas@fredbeauchemin.com</p>
+                            <p class="rg">+1 3069884048</p>
+                            <p class="rg">8:00am - 4:00pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-form">
+            <div class="container">
+                <h3>Contact form for citizen</h3>
+                <form>
+                    <div class="form-group-multiple">
+                        <div class="c-form-group">
+                            <label class="rg">First Name</label>
+                            <input type="text" placeholder="Ex. Patrick">
+                        </div>
+                        <div class="c-form-group">
+                            <label class="rg">Last Name</label>
+                            <input type="text" placeholder="Ex. Thauvette">
+                        </div>
+                    </div>
+                    <div class="form-group-multiple">
+                        <div class="c-form-group">
+                            <label class="rg">Email Address</label>
+                            <input type="email" placeholder="Ex.  patrick@gmail.com">
+                        </div>
+                        <div class="c-form-group">
+                            <label class="rg">Phone Number</label>
+                            <input type="tel" placeholder="Ex. +1 306988021">
+                        </div>
+                    </div>
+                    <div class="c-form-group">
+                        <label for="" class="rg">Message</label>
+                        <textarea placeholder="Write your any opinion"></textarea>
+                    </div>
+                    <div class="submit-button">
+                        <button class="rg">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="office-hour">
+            <div class="container">
+                <h3>Office hours & information</h3>
+                <div class="office-hours">
+                    <div class="item">
+                        <p class="rg">You can email us here</p>
+                        <h6>contact@fredbeauchemin.com</h6>
+                    </div>
+                    <div class="item">
+                        <p class="rg">Office hours</p>
+                        <h6>10:00am - 4:00pm</h6>
+                    </div>
+                    <div class="item">
+                        <p class="rg">Office address</p>
+                        <h6>Quebec, Canada</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq">
+            <div class="container">
+                <div class="icon">
+                    <img src="./asset/img/faq-icon.svg" alt="faq icon" srcset="">
+                </div>
+                <h3>Frequently Asked Questions</h3>
+                <div class="faq-items">
+                    <div class="faq-item expanded" id="firstFaq">
+                        <div class="top-title-controller">
+                            <p class="md">
+                                Fonsectetur dolor aenean sed id tellus aliquet vitae.
+                            </p>
+                            <button class="plus-icon" onclick="toggleFaqItem('firstFaq')">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                        <p class="rg faq-answer">
+                            Lorem ipsum dolor sit amet consectetur. Faucibus amet turpis velit et velit. Quis lorem et magna et. Fringilla odio vestibulum vel amet nunc nascetur. Diam risus adipiscing dictum et. Duis habitasse tortor venenatis sollicitudin ac.
+                        </p>
+                    </div>
+                    <div class="faq-item" id="secondFaq">
+                        <div class="top-title-controller">
+                            <p class="md">
+                                Fonsectetur dolor aenean sed id tellus aliquet vitae.
+                            </p>
+                            <button class="plus-icon" onclick="toggleFaqItem('secondFaq')">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                        <p class="rg faq-answer">
+                            Lorem ipsum dolor sit amet consectetur. Faucibus amet turpis velit et velit. Quis lorem et magna et. Fringilla odio vestibulum vel amet nunc nascetur. Diam risus adipiscing dictum et. Duis habitasse tortor venenatis sollicitudin ac.
+                        </p>
+                    </div>
+                    <div class="faq-item" id="thirdFaq">
+                        <div class="top-title-controller">
+                            <p class="md">
+                                Fonsectetur dolor aenean sed id tellus aliquet vitae.
+                            </p>
+                            <button class="plus-icon" onclick="toggleFaqItem('thirdFaq')">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                        <p class="rg faq-answer">
+                            Lorem ipsum dolor sit amet consectetur. Faucibus amet turpis velit et velit. Quis lorem et magna et. Fringilla odio vestibulum vel amet nunc nascetur. Diam risus adipiscing dictum et. Duis habitasse tortor venenatis sollicitudin ac.
+                        </p>
+                    </div>
+                    <div class="faq-item" id="fourthFaq">
+                        <div class="top-title-controller">
+                            <p class="md">
+                                Fonsectetur dolor aenean sed id tellus aliquet vitae.
+                            </p>
+                            <button class="plus-icon" onclick="toggleFaqItem('fourthFaq')">
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </div>
+                        <p class="rg faq-answer">
+                            Lorem ipsum dolor sit amet consectetur. Faucibus amet turpis velit et velit. Quis lorem et magna et. Fringilla odio vestibulum vel amet nunc nascetur. Diam risus adipiscing dictum et. Duis habitasse tortor venenatis sollicitudin ac.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer container">
+            <div class="left">
+                <div class="logog">Fred Beauchemin.</div>
+                <div class="copyright">
+                    All rights reserved. &copy; 2023 Fred Beauchemin.
+                </div>
+            </div>
+            <div class="right">
+                <div class="quick-link-label">Find all quick links</div>
+                <div class="quick-link-list">
+                    <a href="./index.html">Home</a>
+                    <a href="./issues/index.html">Issues</a>
+                    <a href="./services.html">Services</a>
+                    <a href="./news.html">News</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./asset/common-js/jquery-3.6.1.min.js"></script>
+    <script src="./asset/common-js/bootstrap.bundle.min.js"></script>
+    <script src="./asset/common-js/common.js"></script>
+    <script src="./asset/js-css/contact/contact.js"></script>
+</body>
+</html>
