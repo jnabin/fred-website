@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="../asset/common-css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../asset/common-css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../asset/common-css/variable.css">
+    <link rel="stylesheet" href="../asset/common-css/generic.css">
+    <link rel="stylesheet" href="../asset/common-css/common.css">
+    <link rel="stylesheet" href="../asset/js-css/news/index.css">
+</head>
+<body class="white-body"> 
+    <header>
+        <nav class="container nav-container">
+            <div class="logo">
+                <h1>Fred Beauchemin.</h1>
+            </div>
+            <div class="nav-options">
+                <div class="nav-list" id="navList">
+                    <div class="nav-item">
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="../issues/index.html">Issues</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="../services.html">Services</a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="active" href="#">News</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="../contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="nav-toggeler">
+                    <button onclick="toggleNavList()">
+                        <img id="menuToggleImg" src="../asset/img/Close-Icons.svg" alt="close icon" srcset="">
+                    </button>
+                </div>
+            </div>
+            <div class="mobile-tablet-nav-option">
+                <button class="menu-tggler-btn" type="button" id="navMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img id="menuToggleImg" src="../asset/img/Menu-icon.svg" alt="close icon" srcset="">
+                  </button>
+                <ul class="dropdown-menu" aria-labelledby="navMenuButton">
+                    <li><a class="dropdown-item" href="../index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="../issues/index.html">Issues</a></li>
+                    <li><a class="dropdown-item" href="../services.html">Services</a></li>
+                    <li><a class="dropdown-item" href="#">News</a></li>
+                    <li><a class="dropdown-item" href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="news-feature">
+            <div class="container px-0">
+                <img class="feature-bg-img" src="../asset/img/news-cover-min.png" alt="" srcset="">
+                <div class="feature-bg-effect"></div>
+                <span class="read-more-btn">
+                    <a href="#" class="vertical-arrow">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </a>
+                </span>
+                <div class="feature-content">
+                    <span class="opinion-spise">
+                        Opinion pieces
+                    </span>
+                    <div class="feature-text">
+                        Lorem ipsum dolor sit amet consectetur. Nibh habitasse vel at felis dis eget rutrum. Tortor amet sit nullam id.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news-articles">
+            <div class="container px-0">
+                <h2>All News & Articles</h2>
+                <div class="categories">
+                    <h5 class="label">
+                        Categories
+                    </h5>
+                    <div class="category-list">
+                        <div class="category-item">
+                            <input type="radio" checked value="All Articles" name="news-category" id="allArticles">
+                            <label class="rg" for="allArticles">All Articles</label>
+                        </div>
+                        <div class="category-item">
+                            <input type="radio" value="Press articles and media appearances" name="news-category" id="presArticles">
+                            <label class="rg" for="presArticles">Press articles and media appearances</label>
+                        </div>
+                        <div class="category-item">
+                            <input type="radio" value="Opinion pieces" name="news-category" id="opinionPieces">
+                            <label class="rg" for="opinionPieces">Opinion pieces</label>
+                        </div>
+                        <div class="category-item">
+                            <input type="radio" value="Word from the deputy" name="news-category" id="wordFromDeputy">
+                            <label class="rg" for="wordFromDeputy">Word from the deputy</label>
+                        </div>
+                        <div class="category-item">
+                            <input type="radio" value="Citizen and organization" name="news-category" id="citizenOrganization">
+                            <label class="rg" for="citizenOrganization">Citizen and organization</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="news-article-list" id="newsListContainer">
+
+                </div>
+            </div>
+        </section>
+        <section class="solve-to">
+            <div class="container solve-together">
+                <div class="solve-together-icon">
+                    <img src="../asset/img/solve-together-icon.svg" alt="" srcset="">
+                </div>
+                <div class="solve-together-titles">
+                    <div class="left">
+                        <h2>Let's solve together next big Issues</h2>
+                    </div>
+                    <div class="right">
+                        <a href="" class="join-with-fred rg">Join with Fred</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer container">
+            <div class="left">
+                <div class="logog">Fred Beauchemin.</div>
+                <div class="copyright">
+                    All rights reserved. &copy; 2023 Fred Beauchemin.
+                </div>
+            </div>
+            <div class="right">
+                <div class="quick-link-label">Find all quick links</div>
+                <div class="quick-link-list">
+                    <a href="../index.html">Home</a>
+                    <a href="#">Issues</a>
+                    <a href="../services.html">Services</a>
+                    <a href="../news.html">News</a>
+                    <a href="../contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../asset/common-js/jquery-3.6.1.min.js"></script>
+    <script src="../asset/common-js/bootstrap.bundle.min.js"></script>
+    <script src="../asset/common-js/common.js"></script>
+    <script src="../asset/js-css/news/index.js"></script>
+</body>
+</html>
