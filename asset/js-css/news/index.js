@@ -113,7 +113,7 @@ function updateNewsList(category = null) {
             <img class="news-bg" src="${item.bgImg}" alt="${item.category}" srcset="">
             <div class="news-bg-effect"></div>
             <span class="details-news-btn">
-                <a href="#" class="vertical-arrow">
+                <a href="./details.html" class="vertical-arrow">
                     <i class="fa-solid fa-arrow-up"></i>
                 </a>
             </span>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News detail</title>
+    <link rel="stylesheet" href="../asset/common-css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../asset/common-css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../asset/common-css/variable.css">
+    <link rel="stylesheet" href="../asset/common-css/generic.css">
+    <link rel="stylesheet" href="../asset/common-css/common.css">
+    <link rel="stylesheet" href="../asset/js-css/news/detail/detail.css">
+</head>
+<body class="white-body"> 
+    <header>
+        <nav class="container nav-container">
+            <div class="logo">
+                <h1>Fred Beauchemin.</h1>
+            </div>
+            <div class="nav-options">
+                <div class="nav-list" id="navList">
+                    <div class="nav-item">
+                        <a href="../index.html">Home</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="../issues/index.html">Issues</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="../services.html">Services</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="./index.html" class="active">News</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="../contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="nav-toggeler">
+                    <button onclick="toggleNavList(true)">
+                        <img id="menuToggleImg" src="../asset/img/Close-Icons.svg" alt="close icon" srcset="">
+                    </button>
+                </div>
+            </div>
+            <div class="mobile-tablet-nav-option">
+                <button class="menu-tggler-btn" type="button" id="navMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img id="menuToggleImg" src="../asset/img/Menu-icon.svg" alt="close icon" srcset="">
+                  </button>
+                <ul class="dropdown-menu" aria-labelledby="navMenuButton">
+                    <li><a class="dropdown-item" href="../index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="../issues/index.html">Issues</a></li>
+                    <li><a class="dropdown-item" href="../services.html">Services</a></li>
+                    <li><a class="dropdown-item" href="./index.html">News</a></li>
+                    <li><a class="dropdown-item" href="../contact.html">Contact</a></li>
+                  </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article class="news-detail">
+            <div class="container">
+                <div class="article-title-short-desc">
+                    <h2>Malesuada diam netus augue lectus sit gravida. Diam vel ullamcorper.</h2>
+                    <p class="rg">Lorem ipsum dolor sit amet consectetur. Pulvinar orci hac cursus ut neque odio leo quam. Arcu sit viverra justo aliquet ultrices pellentesque. Feugiat velit in arcu est risus.</p>
+                </div>
+                <div class="article-feature-img">
+                    <img src="../asset/img/news-detail-feature-img-min.png" alt="word from deputy" srcset="">
+                    <div class="article-primary-info">
+                        <div class="info-item">
+                            <p class="rg">Categories</p>
+                            <span class="article-category">
+                                Press articles and media appearances
+                            </span>
+                        </div>
+                        <div class="info-item">
+                            <p class="rg">Date</p>
+                            <button class="article-date rg p-0">
+                                July 24, 2022
+                            </button>
+                        </div>
+                        <div class="info-item">
+                            <p class="rg">Share</p>
+                            <span class="icons">
+                                <a>
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a>
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                               <a>
+                                    <i class="fa-brands fa-instagram"></i>
+                               </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="article-text">
+                    <p class="md">
+                        R utrum congue leo eget malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. ue velit nisi, pretiu ut lacin ia in, elementum id enim. Pellentesque in ipsum id orci porta dapibus. Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vesti bulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tem pus convallis quis ac lectus. Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Proin eget tortor risus.
+                    </p>
+                    <div class="sub-article-content">
+                        <h5>
+                            Neque sed venenatis neque viverra est mattis nullam.
+                        </h5>
+                        <p class="md">
+                            From project management to customer relationship management, our platform seamlessly integrates all aspects of your business, providing a stellar experience every step of the way. With Stellar, you'll witness astronomical growth and skyrocket your success like never before.
+                            Join the constellation of satisfied customers who have embraced the Stellar revolution and witness your business shine brighter than ever!
+                        </p>
+                        <ul class="md">
+                            <li>You’re going to want to learn more about that cheese.</li>
+                            <li>You might potentially want to buy that cheese.</li>
+                            <li>You’ll want to buy that cheese over any of the other cheeses in the store!</li>
+                        </ul>
+                    </div>
+                    <div class="sub-article-content">
+                        <h5>Renenatis neque viverra est mattis nullam.</h5>
+                        <p class="md">
+                            From project management to customer relationship management, our platform seamlessly integrates all aspects of your business, providing a stellar experience every step of the way. With Stellar, you'll witness astronomical growth and skyrocket your success like never before.
+                            Join the constellation of satisfied customers who have embraced the Stellar revolution and witness your business shine brighter than ever!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <section class="latest-news-article">
+            <div class="container px-0">
+                <div class="section-label">
+                    <h2>Our latest News</h2>
+                    <a href="./index.html">
+                        <h6 class="see-all">See all</h6>
+                        <span class="indicate-icon">
+                            <i class="fa-solid fa-arrow-up"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="latest-news-article-content">
+                    <div class="article-item">
+                        <a href="#" class="arrow-item">
+                            <span class="indicate-icon">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </span>
+                        </a>
+                        <div class="bg-illus"></div>
+                        <img src="../asset/img/latest-news-bg-min.png" alt="" srcset="">
+                        <div class="article-content">
+                            <div class="article-label">
+                                <span>Opinion pieces</span>
+                            </div>
+                            <div class="article-desc">
+                                Lorem ipsum dolor sit amet consectetur. At gravida massa tortor m
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-item">
+                        <a href="#" class="arrow-item">
+                            <span class="indicate-icon">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </span>
+                        </a>
+                        <div class="bg-illus"></div>
+                        <img src="../asset/img/latest-news-bg-2-min.png" alt="" srcset="">
+                        <div class="article-content">
+                            <div class="article-label">
+                                <span>Opinion pieces</span>
+                            </div>
+                            <div class="article-desc">
+                                Lorem ipsum dolor sit amet consectetur. At gravida massa tortor m
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="update-from-deputy">
+            <div class="container">
+                <!-- <img src="./asset/img/deputy-section-illus.svg" alt="" srcset=""> -->
+                <h2 class="text-center">Newsletter, email update from the deputy</h2>
+                <p class="text-center">Our organizing program is going to be powered by people like you talking to your friends, family, and communities.</p>
+                <form>
+                    <input type="email" placeholder="Your Email Address" name="" id="">
+                    <input type="tel" class="tel-input" placeholder="Your Phone Number" name="" id="">
+                    <input class="zip-code" type="text" placeholder="Your Zip" name="" id="">
+                    <button class="join-btn rg">Join Us</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer container">
+            <div class="left">
+                <div class="logog">Fred Beauchemin.</div>
+                <div class="copyright">
+                    All rights reserved. &copy; 2023 Fred Beauchemin.
+                </div>
+            </div>
+            <div class="right">
+                <div class="quick-link-label">Find all quick links</div>
+                <div class="quick-link-list">
+                    <a href="../index.html">Home</a>
+                    <a href="../issues/index.html">Issues</a>
+                    <a href="../services.html">Services</a>
+                    <a href="./index.html">News</a>
+                    <a href="../contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../asset/common-js/jquery-3.6.1.min.js"></script>
+    <script src="../asset/common-js/bootstrap.bundle.min.js"></script>
+    <script src="../asset/common-js/common.js"></script>
+    <script src="../asset/js-css/news/detail/detail.js"></script>
+</body>
+</html>
